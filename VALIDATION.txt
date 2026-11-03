@@ -1,0 +1,24 @@
+test_acl_revocation_after_cache_warmup (test_report_cache.ReportCacheTests.test_acl_revocation_after_cache_warmup) ... ok
+test_authorized_analyst (test_report_cache.ReportCacheTests.test_authorized_analyst) ... ok
+test_cache_reused_for_equal_authorized_views (test_report_cache.ReportCacheTests.test_cache_reused_for_equal_authorized_views) ... ok
+test_missing_report_cannot_consume_cached_report (test_report_cache.ReportCacheTests.test_missing_report_cannot_consume_cached_report) ... ok
+test_reader_warming_cache_does_not_strip_analyst_view (test_report_cache.ReportCacheTests.test_reader_warming_cache_does_not_strip_analyst_view) ... ok
+test_repeated_request_reuses_cache (test_report_cache.ReportCacheTests.test_repeated_request_reuses_cache) ... ok
+test_reproduction_cross_tenant (test_report_cache.ReportCacheTests.test_reproduction_cross_tenant) ... ok
+test_reproduction_revoked_user (test_report_cache.ReportCacheTests.test_reproduction_revoked_user) ... ok
+test_returned_dictionary_cannot_poison_cache (test_report_cache.ReportCacheTests.test_returned_dictionary_cannot_poison_cache) ... ok
+test_role_downgrade (test_report_cache.ReportCacheTests.test_role_downgrade) ... ok
+test_role_removal_after_cache_warmup (test_report_cache.ReportCacheTests.test_role_removal_after_cache_warmup) ... ok
+test_role_upgrade (test_report_cache.ReportCacheTests.test_role_upgrade) ... ok
+test_same_tenant_different_projection (test_report_cache.ReportCacheTests.test_same_tenant_different_projection) ... ok
+test_summary_mode_isolated (test_report_cache.ReportCacheTests.test_summary_mode_isolated) ... ok
+test_tenant_isolation_both_warmup_orders (test_report_cache.ReportCacheTests.test_tenant_isolation_both_warmup_orders) ... ok
+test_tenant_only_patch_still_leaks_fields (test_report_cache.ReportCacheTests.test_tenant_only_patch_still_leaks_fields) ... ok
+test_unknown_user_cannot_consume_cached_report (test_report_cache.ReportCacheTests.test_unknown_user_cannot_consume_cached_report) ... ok
+test_updated_document_version (test_report_cache.ReportCacheTests.test_updated_document_version) ... ok
+test_user_key_patch_still_replays_privileged_view (test_report_cache.ReportCacheTests.test_user_key_patch_still_replays_privileged_view) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.001s
+
+OK
